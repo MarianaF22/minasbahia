@@ -89,17 +89,13 @@ input[type="submit"]:hover {
 
 /* Estilos do rodapé */
 .rodape {
-    background-color:#000000;
-    color:#ecf0f1;
-    text-align: center;
-    font-size: 50px;
-    padding: 10px;
-    background-position: left;  
-    border: none; /* Remover borda, caso tenha */
-    padding: 05px; /* Ajustar espaçamento interno */
-    background-color: #f1f1f1; /* Exemplo de cor, se necessário */
-    text-align: center;
-    font-size: 14px; /* Ajustar o tamanho da fonte, se necessário */
+            border: none; /* Sem borda */
+        padding: 03px; /* Ajustar espaçamento interno */
+        background-color: #000000; /* Cor preta para o fundo */
+        text-align: center;
+        font-size: 14px; /* Tamanho da fonte */
+        color: white; /* Cor do texto */
 }
+
 
 
