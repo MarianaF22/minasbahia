@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['id'] = $user['id']; // Armazena o ID do usuário na sessão
             
             // Redireciona para a página index3.html
-            header("Location: index3.html");
+            header("Location: Cardapio.html");
             exit; // Certifique-se de usar exit após header para evitar execução adicional
         } else {
             echo "Senha incorreta.";
