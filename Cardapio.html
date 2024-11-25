@@ -460,6 +460,7 @@
     </script>
         
   <!-- Rodapé -->
+        <footer>
     <div class="rodape">
         <p>Tel: 12 99641-5604</p> 
         <p>End: Av. Guarda Mirim Juarez, 695 - Indaiá, Caraguatatuba</p>
@@ -488,27 +489,7 @@
             </center>
         </div>
     </div>
-      <script>
-    $(document).ready(function() {
-        // Ao clicar em um botão de categoria
-        $('.menu-filter').click(function() {
-            // Obtém a categoria associada ao botão
-            var category = $(this).data('category');
-            
-            // Oculta todos os itens do cardápio
-            $('.menu-item').removeClass('active');
-            
-            // Exibe apenas os itens da categoria selecionada
-            $('.menu-item[data-category="' + category + '"]').addClass('active');
-        });
+            </footer>
 
-        // Botão de voltar para a barra lateral
-        $('.go-back-btn button').click(function() {
-            // Exibe todos os itens novamente
-            $('.menu-item').removeClass('active');
-        });
-    });
-</script>
-  
 </body>
 </html>
