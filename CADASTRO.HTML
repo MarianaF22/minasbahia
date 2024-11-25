@@ -22,9 +22,24 @@
         .requirement.valid {
             color: green; /* Cor quando um requisito é atendido */
         }
+.back-button {
+    position: absolute;
+    top: 10px; /* Ajuste a distância do topo */
+    left: 10px; /* Ajuste a distância da esquerda */
+}
+
+.back-button img {
+    width: 30px; /* Tamanho da imagem, ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
     </style>
 </head>
 <body>
+<div class="back-button" onclick="history.back()">
+    <img src="imagens/Voltar.png" alt="Voltar">
+</div>
+
     <div class="form-container">
         <h2 class="text-center">Cadastro de Usuário</h2>
         <form id="cadastroForm" method="POST">
@@ -145,8 +160,6 @@
         });
        
     </script>
-  <div class="back-button" onclick="history.back()">
-        <img src="imagens/Voltar.png" alt="Voltar">
-    </div>
+ 
 </body>
 </html>
